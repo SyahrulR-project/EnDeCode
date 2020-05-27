@@ -30,6 +30,6 @@ echo "Result : ".base64_decode($en)."\n";
 echo "-----------------------\n";
 }
 else {
-  echo "Your Input Invalid..!!";
+  echo "Your Input Invalid..!!\n";
   }
 ?>
