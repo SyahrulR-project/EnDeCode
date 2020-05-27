@@ -21,7 +21,7 @@ echo "-----------------------\n";
 echo "Result : ".base64_encode($en)."\n";
 echo "-----------------------\n";
 }
-if ($pilih == 2)
+else if ($pilih == 2)
 {
 echo "Input your encode to decode : ";
 $en = trim(fgets(STDIN));
@@ -29,4 +29,7 @@ echo "-----------------------\n";
 echo "Result : ".base64_decode($en)."\n";
 echo "-----------------------\n";
 }
+else {
+  echo "Your Input Invalid..!!";
+  }
 ?>
